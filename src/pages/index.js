@@ -105,7 +105,7 @@ export default function Home() {
               Services I Offer
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 text-center md:text-left dark:text-gray-300">
-              Since the beginning of my journeyt as a freelance developer, I've
+              Since the beginning of my journeyt as a freelance developer, Ive
               done remote work for{" "}
               <span className="text-teal-500">agencies</span> consulted for{" "}
               <span className="text-teal-500">startups</span> and collaborated
@@ -121,6 +121,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
+                alt="web1"
                 src={design}
                 width={100}
                 height={100}
@@ -142,7 +143,13 @@ export default function Home() {
             {/* CODE CARD */}
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={code} width={100} height={100} className="mx-auto" />
+              <Image
+                src={code}
+                width={100}
+                height={100}
+                className="mx-auto"
+                alt="web1"
+              />
               <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
               <p className="py-2">
                 Creating elegant designs suited for your needs following core
@@ -159,6 +166,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={consulting}
+                alt="consulting"
                 width={100}
                 height={100}
                 className="mx-auto"
@@ -183,7 +191,7 @@ export default function Home() {
               Check out my <span className="dark:text-teal-400">Portfolio</span>
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 text-center md:text-left dark:text-gray-200">
-              Since the beginning of my journeyt as a freelance developer, I've
+              Since the beginning of my journeyt as a freelance developer, Ive
               done remote work for{" "}
               <span className="text-teal-500">agencies</span> consulted for{" "}
               <span className="text-teal-500">startups</span> and collaborated
@@ -199,6 +207,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web1}
+                alt="web1"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -208,6 +217,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web2}
+                alt="web1"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -217,6 +227,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web3}
+                alt="web1"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -226,6 +237,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web4}
+                alt="web1"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -234,6 +246,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="web1"
                 src={web5}
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -244,6 +257,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web6}
+                alt="web1"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
